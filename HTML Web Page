@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Web Page</title>
+</head>
+
+    <body>
+        
+        <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h1>Welcome To My Simple Web Page</h1>
+        <p>This is a simple web page to display my designs.</p>
+
+
+        <main>
+            <section>
+                <h2>Feed Your Eyes</h2>
+                <img src="./medical_flyer.jpeg" width="20%" alt="medical_flyer">
+                <img src="./Masterclass_flyer.jpeg" width="20%" alt="Masterclass_flyer">
+                <img src="./Reunion_flyer.jpeg" width="20%" alt="Reunion_flyer"><br><br>
+                <img src="./Birthday_flyer.jpeg" width="20%" alt="Birthday_flyer">
+                <img src="./Business_flyer.jpeg" width="20%" alt="Business_flyer">
+                <img src="./Burger.jpeg" width="20%" alt="Burger"> <br><br><button>SEE MORE</button>
+            </section> <br><br>
+        
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+
+        </section>
+        </main>
+
+        <br><br><br>
+    <footer>
+        <p>&copy; 2023 My Simple Web Page</p>
+        <p>
+            Follow us on:
+            <a href="https://www.instagram.com/dinma_graphics/?utm_source=qr&igsh=MTM0MDAwZWpydmpuZg%3D%3D#" target="_blank">Instagram</a>
+            <a href="https://share.google/Q2PODL06bcTKaO8be" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/share/18KuYssYQ3/" target="_blank">Facebook</a>
+        </p>
+
+    </footer>
+
+    </body>
+</html>
